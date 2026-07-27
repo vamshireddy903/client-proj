@@ -1,0 +1,4 @@
+# Replace yourdomain.com with your actual domain name (e.g., builtrise.com)
+yourdomain.com {
+    reverse_proxy builtrise-app:5000
+}

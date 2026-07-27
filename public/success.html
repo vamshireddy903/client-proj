@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Success - BuiltRise</title>
+
+  <!-- Fonts -->
+  <link
+    href="https://api.fontshare.com/v2/css?f[]=clash-grotesk@700,600,500,400&f[]=general-sans@400,500,600&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background: var(--bg-dark);
+      margin: 0;
+    }
+    .success-container {
+      max-width: 600px;
+      padding: 60px 40px;
+      background: var(--bg-card);
+      border: 1px solid var(--border-light);
+      border-radius: 24px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+      position: relative;
+      z-index: 10;
+      margin: 24px;
+    }
+    .success-icon {
+      width: 80px;
+      height: 80px;
+      background: var(--primary-soft);
+      color: var(--primary);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 32px;
+      box-shadow: 0 0 24px var(--primary-glow);
+    }
+    .success-icon svg {
+      width: 40px;
+      height: 40px;
+    }
+    .success-container h1 {
+      font-size: 36px;
+      margin-bottom: 16px;
+      color: var(--text-main);
+    }
+    .success-container p {
+      font-size: 18px;
+      color: var(--text-muted);
+      margin-bottom: 40px;
+      line-height: 1.6;
+    }
+    .cta-glow {
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+      width: 600px; height: 600px;
+      background: var(--primary);
+      opacity: 0.15;
+      filter: blur(120px);
+      border-radius: 50%;
+      pointer-events: none;
+      z-index: -1;
+    }
+  </style>
+</head>
+<body>
+  <!-- Fractal Noise Overlay -->
+  <div class="noise-overlay"></div>
+  <div class="cta-glow"></div>
+  
+  <div class="success-container stagger-entrance">
+    <div class="success-icon">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+      </svg>
+    </div>
+    <h1>Thank You!</h1>
+    <p>You are just one step away from your dream project. Our experts will contact you shortly to schedule your consultation call.</p>
+    <a href="index.html" class="btn-primary" style="display: inline-flex; text-decoration: none;">Return to Home</a>
+  </div>
+
+  <script>
+    // Simple stagger entrance animation on load
+    document.addEventListener("DOMContentLoaded", () => {
+      const container = document.querySelector('.success-container');
+      container.style.opacity = '0';
+      container.style.transform = 'translateY(20px)';
+      container.style.transition = 'all 0.6s ease';
+      
+      setTimeout(() => {
+        container.style.opacity = '1';
+        container.style.transform = 'translateY(0)';
+      }, 100);
+    });
+  </script>
+</body>
+</html>

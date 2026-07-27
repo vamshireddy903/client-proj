@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BuiltRise - Reliable Consultants & Constructions</title>
+
+  <!-- SEO Best Practices -->
+  <meta name="description"
+    content="BuiltRise - End-to-end residential construction across South Karnataka since 10 years. Planning, design, structure, and interiors. We Build Your Dream Into Reality." />
+
+  <!-- Fonts -->
+  <link
+    href="https://api.fontshare.com/v2/css?f[]=clash-grotesk@700,600,500,400&f[]=general-sans@400,500,600&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css?v=1.1" />
+</head>
+
+<body>
+  <!-- Fractal Noise Overlay -->
+  <div class="noise-overlay"></div>
+
+  <!-- Sticky Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="logo" style="display: flex; align-items: center; gap: 0;">
+        <span style="display: flex; mix-blend-mode: multiply;">
+          <img src="logo-symbol.png" alt="Builtrise Symbol"
+            style="height: 60px; object-fit: contain; margin-right: -28px; margin-left: -10px; filter: contrast(1.2) brightness(1.05);"
+            onerror="this.style.display='none'">
+        </span>
+        <div class="logo-text-wrapper" style="display: flex; flex-direction: column; line-height: 1.1;">
+          <span
+            style="font-family: var(--font-heading); font-size: 22px; font-weight: 700; letter-spacing: 1px; color: var(--primary);">BUILTRISE</span>
+          <span
+            style="font-family: var(--font-body); font-size: 10px; font-weight: 600; letter-spacing: 3px; color: var(--text-muted); text-transform: uppercase;">PROJECTS</span>
+        </div>
+      </div>
+
+      <div class="nav-links">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#projects">Projects</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#packages">Packages</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="nav-actions" style="display: flex; gap: 12px; align-items: center;">
+        <button class="btn-secondary whatsapp wa-open-btn" style="padding: 10px 20px; font-size: 14px; border-radius: 10px;">
+          <svg viewBox="0 0 24 24" fill="currentColor" style="width: 16px; height: 16px;">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+          </svg>
+          WhatsApp Us
+        </button>
+        <button class="cta-nav">Get In Touch</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-container">
+      <div class="hero-left stagger-entrance">
+        <div class="badge-pill">
+          <span>Bengaluru's Trusted Builder</span>
+        </div>
+        <h1 class="hero-title">We Build Dreams Into Reality.</h1>
+        <p class="hero-desc">End-to-end residential, commercial, and interior luxury turnkey projects.</p>
+
+        <div class="hero-cta-cluster">
+          <button class="btn-primary">
+            Start Your Project
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </button>
+          <button class="btn-play">
+            <div class="play-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M8 5v14l11-7z" />
+              </svg>
+            </div>
+            Watch Tour
+          </button>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="hero-3d-container">
+          <div class="building-mockup">
+            <!-- User's Actual Logo Image (Scaled Up Massively & Blended Natively) -->
+            <div
+              style="position: absolute; width: 300%; height: 300%; left: -100%; top: -100%; display: flex; align-items: center; justify-content: center; pointer-events: none; mix-blend-mode: multiply;">
+              <img src="logo-symbol.png" alt="Builtrise Floating Logo"
+                style="width: 100%; height: 100%; object-fit: contain; filter: brightness(1.05);"
+                onerror="this.style.display='none'">
+            </div>
+
+            <!-- Floating Badges -->
+            <div class="floating-badge badge-1">
+              <span class="dot green"></span> On-Time ✓
+            </div>
+            <div class="floating-badge badge-2">
+              <span class="dot white"></span> 25+ Yrs Structural Warranty
+            </div>
+            <div class="floating-badge badge-3">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 16px; height: 16px; color: var(--primary);">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+              100% In-House Expertise
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Bar -->
+  <section class="stats-bar">
+    <div class="stat-item">
+      <div class="stat-num">10+</div>
+      <div class="stat-label">Years Experience</div>
+      <div class="stat-line"></div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">10+</div>
+      <div class="stat-label">Completed Projects</div>
+      <div class="stat-line"></div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">50+</div>
+      <div class="stat-label">Skilled Professionals</div>
+      <div class="stat-line"></div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">10yr</div>
+      <div class="stat-label">Waterproofing Warranty</div>
+      <div class="stat-line"></div>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section class="about-us" id="about">
+    <div class="about-container">
+      <div class="about-image stagger-entrance">
+        <div class="image-wrapper">
+          <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80" alt="About BuiltRise Construction">
+          <div class="experience-badge">
+            <span class="exp-num">10+</span>
+            <span class="exp-text">Years of<br>Excellence</span>
+          </div>
+        </div>
+      </div>
+      <div class="about-content stagger-entrance">
+        <div class="section-badge">ABOUT BUILTRISE</div>
+        <h2>Building Trust, <br><span class="highlight">One Brick at a Time.</span></h2>
+        <p class="about-desc">BuiltRise is a premier construction and consulting firm serving South Karnataka since 10 years. With over 10 years of industry experience, we specialize in end-to-end residential, commercial, and luxury turnkey projects.</p>
+        <p class="about-desc">We believe in full transparency, zero hidden charges, and timely delivery. From the initial blueprint to the final interior finishes, our in-house team of expert architects, engineers, and craftsmen ensures that your dream home is built to perfection.</p>
+        
+        <ul class="about-features">
+          <li>
+            <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg></div>
+            <div>
+              <h4>100% Transparency</h4>
+              <span>Clear pricing and honest communication.</span>
+            </div>
+          </li>
+          <li>
+            <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg></div>
+            <div>
+              <h4>In-House Experts</h4>
+              <span>No sub-contracting, full quality control.</span>
+            </div>
+          </li>
+        </ul>
+        <button class="btn-primary cta-nav">Get a Free Consultation</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="features" id="services" style="overflow: hidden; max-width: 100vw; padding: 100px 0;">
+    <div class="section-header" style="padding: 0 24px;">
+      <h2>SERVICES WE PROVIDE</h2>
+      <p>Comprehensive construction and consulting solutions tailored to your needs.</p>
+    </div>
+
+    <div class="services-marquee-container">
+      <!-- Track 1: Moving Left -->
+      <div class="marquee-track track-left">
+        <!-- Set 1 -->
+        <div class="service-marquee-card">
+          <div class="icon-container"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg></div>
+          <h3>Residential Construction</h3>
+          <p>Complete home construction tailored to your lifestyle, budget, and vision.</p>
+        </div>
+        <div class="service-marquee-card">
+          <div class="icon-container"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="2" width="16" height="20" rx="2" ry="2"></rect><path d="M9 22v-4h6v4"></path><path d="M8 6h.01"></path><path d="M16 6h.01"></path><path d="M12 6h.01"></path><path d="M12 10h.01"></path><path d="M12 14h.01"></path><path d="M16 10h.01"></path><path d="M16 14h.01"></path><path d="M8 10h.01"></path><path d="M8 14h.01"></path></svg></div>
+          <h3>Commercial Construction</h3>
+          <p>Professional services for offices, retail spaces, and commercial buildings.</p>
+        </div>
+        <div class="service-marquee-card">
+          <div class="icon-container"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path></svg></div>
+          <h3>Luxury Turnkey Projects</h3>
+          <p>End-to-end luxury construction including planning, execution, and interiors.</p>
+        </div>
+        <div class="service-marquee-card">
+          <div class="icon-container"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg></div>
+          <h3>Architectural Design & Planning</h3>
+          <p>Creative designs with detailed planning and modern aesthetics.</p>
+        </div>
+        <div class="service-marquee-card">
+          <div class="icon-container"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg></div>
+          <h3>Interior Design & Execution</h3>
+          <p>Customized interior solutions combining elegance, comfort, and functionality.</p>
+        </div>
+        <div class="service-marquee-card">
+          <div class="icon-container"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 2v6h6"></path><path d="M3 13a9 9 0 1 0 3-7.7L3 8"></path></svg></div>
+          <h3>Renovation & Remodeling</h3>
+          <p>Transform existing spaces with modern upgrades and stylish redesigns.</p>
+        </div>
+        <div class="service-marquee-card">
+          <div class="icon-container"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg></div>
+          <h3>Construction Consulting</h3>
+          <p>Expert guidance for project planning, budgeting, and overall management.</p>
+        </div>
+        <!-- Duplicate Set 1 -->
+        <div class="service-marquee-card" aria-hidden="true"><div class="icon-container"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg></div><h3>Residential Construction</h3><p>Complete home construction tailored to your lifestyle, budget, and vision.</p></div>
+        <div class="service-marquee-card" aria-hidden="true"><div class="icon-container"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="2" width="16" height="20" rx="2" ry="2"></rect><path d="M9 22v-4h6v4"></path><path d="M8 6h.01"></path><path d="M16 6h.01"></path><path d="M12 6h.01"></path><path d="M12 10h.01"></path><path d="M12 14h.01"></path><path d="M16 10h.01"></path><path d="M16 14h.01"></path><path d="M8 10h.01"></path><path d="M8 14h.01"></path></svg></div><h3>Commercial Construction</h3><p>Professional services for offices, retail spaces, and commercial buildings.</p></div>
+        <div class="service-marquee-card" aria-hidden="true"><div class="icon-container"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path></svg></div><h3>Luxury Turnkey Projects</h3><p>End-to-end luxury construction including planning, execution, and interiors.</p></div>
+        <div class="service-marquee-card" aria-hidden="true"><div class="icon-container"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg></div><h3>Architectural Design & Planning</h3><p>Creative designs with detailed planning and modern aesthetics.</p></div>
+        <div class="service-marquee-card" aria-hidden="true"><div class="icon-container"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg></div><h3>Interior Design & Execution</h3><p>Customized interior solutions combining elegance, comfort, and functionality.</p></div>
+        <div class="service-marquee-card" aria-hidden="true"><div class="icon-container"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 2v6h6"></path><path d="M3 13a9 9 0 1 0 3-7.7L3 8"></path></svg></div><h3>Renovation & Remodeling</h3><p>Transform existing spaces with modern upgrades and stylish redesigns.</p></div>
+        <div class="service-marquee-card" aria-hidden="true"><div class="icon-container"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg></div><h3>Construction Consulting</h3><p>Expert guidance for project planning, budgeting, and overall management.</p></div>
+      </div>
+
+      <!-- Track 2: Moving Right -->
+      <div class="marquee-track track-right">
+        <!-- Set 2 -->
+        <div class="service-marquee-card">
+          <div class="icon-container"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg></div>
+          <h3>Project Management</h3>
+          <p>Professional supervision to ensure quality, safety, and timely completion.</p>
+        </div>
+        <div class="service-marquee-card">
+          <div class="icon-container"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg></div>
+          <h3>Structural Design & Engineering</h3>
+          <p>Safe, durable structural solutions by experienced engineers using industry standards.</p>
+        </div>
+        <div class="service-marquee-card">
+          <div class="icon-container"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path></svg></div>
+          <h3>Electrical & Plumbing Works</h3>
+          <p>Complete electrical and plumbing installations with high-quality materials.</p>
+        </div>
+        <div class="service-marquee-card">
+          <div class="icon-container"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg></div>
+          <h3>2D & 3D Elevation Designs</h3>
+          <p>Realistic 3D visualizations and elevation designs to visualize your project.</p>
+        </div>
+        <div class="service-marquee-card">
+          <div class="icon-container"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z"></path><path d="M4 12h16"></path><path d="M12 4v16"></path></svg></div>
+          <h3>Space Planning</h3>
+          <p>Smart utilization of available space to enhance functionality and comfort.</p>
+        </div>
+        <div class="service-marquee-card">
+          <div class="icon-container"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg></div>
+          <h3>Site Inspection & Estimation</h3>
+          <p>Accurate project estimations, evaluations, and on-site inspections.</p>
+        </div>
+        <div class="service-marquee-card">
+          <div class="icon-container"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg></div>
+          <h3>Customized Construction Solutions</h3>
+          <p>Flexible construction services tailored to individual project goals.</p>
+        </div>
+        <!-- Duplicate Set 2 -->
+        <div class="service-marquee-card" aria-hidden="true"><div class="icon-container"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg></div><h3>Project Management</h3><p>Professional supervision to ensure quality, safety, and timely completion.</p></div>
+        <div class="service-marquee-card" aria-hidden="true"><div class="icon-container"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg></div><h3>Structural Design & Engineering</h3><p>Safe, durable structural solutions by experienced engineers using industry standards.</p></div>
+        <div class="service-marquee-card" aria-hidden="true"><div class="icon-container"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path></svg></div><h3>Electrical & Plumbing Works</h3><p>Complete electrical and plumbing installations with high-quality materials.</p></div>
+        <div class="service-marquee-card" aria-hidden="true"><div class="icon-container"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg></div><h3>2D & 3D Elevation Designs</h3><p>Realistic 3D visualizations and elevation designs to visualize your project.</p></div>
+        <div class="service-marquee-card" aria-hidden="true"><div class="icon-container"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z"></path><path d="M4 12h16"></path><path d="M12 4v16"></path></svg></div><h3>Space Planning</h3><p>Smart utilization of available space to enhance functionality and comfort.</p></div>
+        <div class="service-marquee-card" aria-hidden="true"><div class="icon-container"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg></div><h3>Site Inspection & Estimation</h3><p>Accurate project estimations, evaluations, and on-site inspections.</p></div>
+        <div class="service-marquee-card" aria-hidden="true"><div class="icon-container"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg></div><h3>Customized Construction Solutions</h3><p>Flexible construction services tailored to individual project goals.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pre-Engineered Buildings (PEB) Section -->
+  <section class="peb-section reveal-on-scroll" id="peb">
+    <div class="peb-container">
+      <div class="peb-image">
+        <div class="image-wrapper">
+          <img src="images/peb_structure.jpg" alt="BuiltRise Pre-Engineered Steel Building">
+        </div>
+      </div>
+      <div class="peb-content">
+        <div class="section-badge">PRE-ENGINEERED BUILDINGS</div>
+        <h2>Fast, Strong & <br><span class="highlight">Cost-Effective Steel Structures</span></h2>
+        <p class="peb-desc">BuiltRise provides complete Pre-Engineered Building (PEB) solutions for industrial, commercial, warehouse, factory, and infrastructure projects.</p>
+        <p class="peb-desc">A Pre-Engineered Building (PEB) is a steel structure where columns, rafters, purlins, and roof systems are precision-manufactured in a factory and assembled on-site using high-strength bolted connections. This method ensures faster construction, superior quality, reduced material waste, and lower overall project costs.</p>
+        <p class="peb-desc">Whether you require an industrial warehouse, factory shed, logistics center, or commercial steel building, our team delivers durable and customized PEB solutions built to international engineering standards.</p>
+        
+        <div class="peb-highlights-grid">
+          <div class="peb-highlight-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            <span>Faster Construction</span>
+          </div>
+          <div class="peb-highlight-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            <span>High Structural Strength</span>
+          </div>
+          <div class="peb-highlight-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            <span>Cost Effective</span>
+          </div>
+          <div class="peb-highlight-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            <span>Low Maintenance</span>
+          </div>
+          <div class="peb-highlight-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            <span>Expandable Design</span>
+          </div>
+          <div class="peb-highlight-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            <span>Earthquake Resistant</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ongoing Projects Gallery -->
+  <section class="ongoing-projects" id="projects">
+    <div class="section-header">
+      <h2>5+ ONGOING PROJECTS</h2>
+    </div>
+
+    <div class="projects-arc-container">
+      <div class="project-arc-card card-outer-left">
+        <div class="project-bg"
+          style="background-image: url('images/row_house.png')">
+        </div>
+        <div class="project-info">
+          <span class="project-badge">Row House</span>
+          <span class="project-tag">20×40 | G+1</span>
+        </div>
+      </div>
+
+      <div class="project-arc-card card-inner-left">
+        <div class="project-bg"
+          style="background-image: url('images/residential.png')">
+        </div>
+        <div class="project-info">
+          <span class="project-badge">Residential</span>
+          <span class="project-tag">30×50 | G+3</span>
+        </div>
+      </div>
+
+      <div class="project-arc-card card-center">
+        <div class="project-bg"
+          style="background-image: url('images/luxury_duplex.png')">
+        </div>
+        <div class="project-info">
+          <span class="project-badge">Luxury Duplex</span>
+          <span class="project-tag">40×60 | G+2</span>
+        </div>
+      </div>
+
+      <div class="project-arc-card card-inner-right">
+        <div class="project-bg"
+          style="background-image: url('images/commercial.png')">
+        </div>
+        <div class="project-info">
+          <span class="project-badge">Commercial</span>
+          <span class="project-tag">60×40 | G+4</span>
+        </div>
+      </div>
+
+      <div class="project-arc-card card-outer-right">
+        <div class="project-bg"
+          style="background-image: url('images/apartments.png')">
+        </div>
+        <div class="project-info">
+          <span class="project-badge">Apartments</span>
+          <span class="project-tag">50×80 | G+5</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Packages Section -->
+  <section class="packages" id="packages"
+    style="padding: 120px 24px; max-width: 1200px; margin: 0 auto; text-align: center;">
+    <div class="section-header">
+      <h2>OUR PACKAGES</h2>
+      <p>Transparent pricing and detailed specifications for your dream project.</p>
+    </div>
+
+    <div class="packages-grid"
+      style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin-top: 48px;">
+
+      <!-- Package 1 -->
+      <div class="package-card"
+        style="background: var(--bg-card); border: 1px solid var(--border-light); border-radius: 16px; padding: 40px 24px; transition: var(--transition-smooth); cursor: pointer;">
+        <h3 class="pkg-name" style="font-size: 24px; color: var(--text-main); margin-bottom: 8px;">Classic Package</h3>
+        <div style="font-size: 36px; font-weight: 700; color: var(--primary); margin-bottom: 24px;">₹1899<span
+            style="font-size: 16px; color: var(--text-muted); font-weight: 500;">/sq.ft.</span></div>
+        <button class="btn-primary" style="width: 100%; justify-content: center;">Get Quotation</button>
+      </div>
+
+      <!-- Package 2 -->
+      <div class="package-card"
+        style="background: var(--bg-card); border: 1px solid var(--border-light); border-radius: 16px; padding: 40px 24px; transition: var(--transition-smooth); cursor: pointer;">
+        <h3 class="pkg-name" style="font-size: 24px; color: var(--text-main); margin-bottom: 8px;">Premium Package</h3>
+        <div style="font-size: 36px; font-weight: 700; color: var(--primary); margin-bottom: 24px;">₹2050<span
+            style="font-size: 16px; color: var(--text-muted); font-weight: 500;">/sq.ft.</span></div>
+        <button class="btn-primary" style="width: 100%; justify-content: center;">Get Quotation</button>
+      </div>
+
+      <!-- Package 3 -->
+      <div class="package-card"
+        style="background: var(--bg-card); border: 1px solid var(--border-light); border-radius: 16px; padding: 40px 24px; transition: var(--transition-smooth); cursor: pointer;">
+        <h3 class="pkg-name" style="font-size: 24px; color: var(--text-main); margin-bottom: 8px;">Luxury Package</h3>
+        <div style="font-size: 36px; font-weight: 700; color: var(--primary); margin-bottom: 24px;">₹2550<span
+            style="font-size: 16px; color: var(--text-muted); font-weight: 500;">/sq.ft.</span></div>
+        <button class="btn-primary" style="width: 100%; justify-content: center;">Get Quotation</button>
+      </div>
+
+      <!-- Package 4 -->
+      <div class="package-card"
+        style="background: var(--bg-card); border: 1px solid var(--border-light); border-radius: 16px; padding: 40px 24px; transition: var(--transition-smooth); cursor: pointer;">
+        <h3 class="pkg-name" style="font-size: 24px; color: var(--text-main); margin-bottom: 8px;">Signature Package</h3>
+        <div style="font-size: 36px; font-weight: 700; color: var(--primary); margin-bottom: 24px;">₹2999<span
+            style="font-size: 16px; color: var(--text-muted); font-weight: 500;">/sq.ft.</span></div>
+        <button class="btn-primary" style="width: 100%; justify-content: center;">Get Quotation</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Completed Projects -->
+  <section class="completed-projects" id="gallery">
+    <div class="section-header" style="text-align: center; padding: 60px 24px 20px;">
+      <h2>PROJECT GALLERY</h2>
+    </div>
+    <div class="completed-scroll">
+      <div class="completed-item">
+        <img src="images/gallery_kerala_villa.png"
+          alt="Modern Kerala Villa">
+        <div class="completed-overlay">Modern Kerala Villa</div>
+      </div>
+      <div class="completed-item">
+        <img src="images/gallery_karnataka_home.png"
+          alt="G+1 South Karnataka Home">
+        <div class="completed-overlay">G+1 South Karnataka Home</div>
+      </div>
+      <div class="completed-item">
+        <img src="images/gallery_bangalore_house1.png"
+          alt="Modern G+1 Villa - Bengaluru">
+        <div class="completed-overlay">Modern G+1 Villa - Bengaluru</div>
+      </div>
+      <div class="completed-item">
+        <img src="images/gallery_bangalore_house2.png"
+          alt="Modern G+2 Duplex - Bengaluru">
+        <div class="completed-overlay">Modern G+2 Duplex - Bengaluru</div>
+      </div>
+    </div>
+    <div class="completed-cta">
+      <button class="btn-text">ALL PROJECTS <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M5 12h14M12 5l7 7-7 7" />
+        </svg></button>
+    </div>
+  </section>
+
+  <!-- Schedule Call Section -->
+  <section class="schedule-call" id="quote">
+    <div class="schedule-container">
+      <div class="schedule-left">
+        <h2>Ready to build your dream home?</h2>
+        <p>Skip the guesswork. Schedule a free discovery call with our expert architects and structural engineers to
+          discuss your vision, land details, and get a realistic cost estimate.</p>
+
+        <ul class="schedule-benefits">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg> 1-on-1 Expert Consultation</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg> Site Feasibility Check</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg> Transparent Cost Breakdown</li>
+        </ul>
+      </div>
+
+      <div class="schedule-right">
+        <div class="schedule-card">
+          <div class="glow-accent"></div>
+          <h3>Request a Call Back</h3>
+          <form id="callForm">
+            <input type="hidden" name="formType" value="contact">
+            <div class="form-group">
+              <label>Name</label>
+              <input type="text" name="name" required placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+              <label>Phone Number</label>
+              <input type="tel" name="phone" required pattern="[0-9]{10}" maxlength="10" title="Please enter a valid 10-digit phone number" placeholder="Enter your 10-digit phone number">
+            </div>
+            <div class="form-group">
+              <label>Project Type</label>
+              <select name="projectType" id="projectType" class="custom-select" required onchange="document.getElementById('otherDetailsGroup').style.display = this.value === 'Others' ? 'block' : 'none';">
+                <option value="Residential Home">Residential Home</option>
+                <option value="Commercial Building">Commercial Building</option>
+                <option value="Renovation">Renovation</option>
+                <option value="Others">Others</option>
+              </select>
+            </div>
+            <div class="form-group" id="otherDetailsGroup" style="display: none;">
+              <label>Explain in detail</label>
+              <textarea name="otherDetails" id="otherDetails" rows="3" placeholder="Please provide more details about your project..."></textarea>
+            </div>
+            <button type="submit" class="btn-primary full-width" id="callSubmitBtn">Send a Request</button>
+            <div id="callFormStatus" class="form-status"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Guarantees Strip -->
+  <section class="guarantees-strip">
+    <div class="guarantee-item">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+      </svg>
+      <span>10yr Waterproofing</span>
+    </div>
+    <div class="guarantee-item">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M3 21h18 M5 21V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16" />
+      </svg>
+      <span>25+ Years Structural Warranty</span>
+    </div>
+    <div class="guarantee-item">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path
+          d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
+      </svg>
+      <span>1yr Free Maintenance</span>
+    </div>
+    <div class="guarantee-item">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+      </svg>
+      <span>10yr Plumbing & Electrical</span>
+    </div>
+  </section>
+
+  <!-- CTA Transformation Section -->
+  <section class="cta-transformation">
+    <div class="cta-glow"></div>
+    <div class="cta-content">
+      <h2>Your <span class="highlight">Dream</span> Home Starts With One Call.</h2>
+      <p>BuiltRise delivers affordable construction packages, innovative designs, and reliable building solutions that
+        transform your vision into a beautiful reality.</p>
+
+      <div class="cta-buttons">
+        <button class="btn-primary large">Start Your Project</button>
+        <button class="btn-secondary">Call Now: +91 9845935410 / +91 72595 65143</button>
+        <button class="btn-secondary whatsapp wa-open-btn">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+          </svg>
+          WhatsApp Us
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-col about">
+        <div class="logo" style="display: flex; align-items: center; gap: 0; margin-bottom: 16px;">
+          <span style="display: flex; mix-blend-mode: multiply;">
+            <img src="logo-symbol.png" alt="Builtrise Symbol"
+              style="height: 60px; object-fit: contain; margin-right: -28px; margin-left: -10px; filter: contrast(1.2) brightness(1.05);"
+              onerror="this.style.display='none'">
+          </span>
+          <div class="logo-text-wrapper" style="display: flex; flex-direction: column; line-height: 1.1;">
+            <span
+              style="font-family: var(--font-heading); font-size: 22px; font-weight: 700; letter-spacing: 1px; color: var(--primary);">BUILTRISE</span>
+            <span
+              style="font-family: var(--font-body); font-size: 10px; font-weight: 600; letter-spacing: 3px; color: var(--text-muted); text-transform: uppercase;">PROJECTS</span>
+          </div>
+        </div>
+        <p class="tagline">"We Build Your Dream Into Reality"</p>
+        <div class="contact-info-footer">
+          <p>Mon–Sun 9am–7pm</p>
+          <p>#49, K M Sonnappa Layout, Kereguddadahalli, Chikkabanavara, Bangalore- 560090</p>
+        </div>
+      </div>
+
+      <div class="footer-col links">
+        <h4>Quick Links</h4>
+        <a href="#about">About Us</a>
+        <a href="#projects">Projects</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#packages">Packages</a>
+        <a href="#services">Services</a>
+      </div>
+
+      <div class="footer-col contact" id="contact">
+        <h4>Contact</h4>
+        <p>+91 9845935410 <br> +91 72595 65143</p>
+        <p>builtriseengineers@gmail.com</p>
+        <div class="social-icons">
+          <a href="#" class="social-icon">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+              <path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"/>
+            </svg>
+          </a>
+          <a href="#" class="social-icon">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+              <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+            </svg>
+          </a>
+          <a href="#" class="social-icon">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+              <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/>
+            </svg>
+          </a>
+          <button class="social-icon wa-open-btn" style="border: none; cursor: pointer;">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 BuiltRise Projects. All rights reserved.</p>
+      <p>Serving South Karnataka since 10 years.</p>
+    </div>
+  </footer>
+
+  <!-- Modal for Forms -->
+  <div id="formModal" class="modal-overlay">
+    <div class="modal-content">
+      <button class="modal-close">&times;</button>
+      <h3 id="modalTitle" class="font-heading" style="margin-bottom:24px; font-size:32px;">Start Your Project</h3>
+      <form id="leadForm">
+        <input type="hidden" id="formType" name="formType" value="contact">
+        <input type="hidden" id="packageName" name="package_name" value="">
+        <input type="hidden" id="formSource" name="source" value="">
+
+        <div class="form-group">
+          <label>Name</label>
+          <input type="text" id="name" name="name" required placeholder="Enter your name">
+        </div>
+
+        <div class="form-group" id="emailGroup">
+          <label>Email</label>
+          <input type="email" id="email" name="email" required pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" title="Please enter a valid email address (e.g., name@domain.com)" placeholder="Enter your email">
+        </div>
+
+        <div class="form-group">
+          <label>WhatsApp Number</label>
+          <input type="tel" id="phone" name="phone" required pattern="[0-9]{10}" maxlength="10" title="Please enter a valid 10-digit phone number" placeholder="Enter your 10-digit WhatsApp number">
+        </div>
+
+        <div class="form-group" id="messageGroup">
+          <label id="messageLabel">Message</label>
+          <textarea id="message" name="message" rows="4"
+            placeholder="Tell us about your project requirements..."></textarea>
+        </div>
+
+        <button type="submit" class="btn-primary full-width" id="submitBtn">Submit Request</button>
+        <div id="formStatus" class="form-status"></div>
+      </form>
+    </div>
+  </div>
+
+  <!-- WhatsApp Selection Modal -->
+  <div id="waModal" class="modal-overlay">
+    <div class="modal-content" style="text-align: center; max-width: 400px; padding: 40px 24px;">
+      <button class="modal-close" id="waCloseBtn">&times;</button>
+      <h3 class="font-heading" style="margin-bottom:12px; font-size:24px;">Message Us On WhatsApp</h3>
+      <p style="margin-bottom: 24px; color: var(--text-muted);">Choose a number to start chatting with our team.</p>
+      
+      <div style="display: flex; flex-direction: column; gap: 16px;">
+        <a href="https://wa.me/919845935410?text=Hi%20Builtrise%2C%20I%27m%20interested%20in%20your%20construction%20services%20and%20would%20like%20to%20know%20more." target="_blank" class="btn-secondary whatsapp" style="text-decoration: none; justify-content: center;">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+          </svg>
+          +91 9845935410
+        </a>
+        <a href="https://wa.me/917259565143?text=Hi%20Builtrise%2C%20I%27m%20interested%20in%20your%20construction%20services%20and%20would%20like%20to%20know%20more." target="_blank" class="btn-secondary whatsapp" style="text-decoration: none; justify-content: center;">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+          </svg>
+          +91 72595 65143
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Video Modal -->
+  <div id="videoModal" class="modal-overlay">
+    <div class="modal-content" style="max-width: 900px; padding: 20px; background: transparent; border: none; box-shadow: none;">
+      <button class="modal-close" id="videoCloseBtn" style="color: white; right: 0; top: -40px;">&times;</button>
+      <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 12px; background: #000;">
+        <iframe id="tourVideo" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="" title="Watch Tour" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js?v=1.8"></script>
+</body>
+
+</html>
