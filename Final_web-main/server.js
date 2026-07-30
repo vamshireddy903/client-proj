@@ -51,7 +51,7 @@ app.post('/api/contact', async (req, res) => {
     try {
       await transporter.sendMail({
         from: process.env.EMAIL_USER,
-        to: 'vamsir673@gmail.com',
+        to: 'builtriseengineers@gmail.com',
         subject: `New Contact/Project Request: ${name}`,
         html: `
           <h2>New Contact/Project Request</h2>
@@ -88,7 +88,7 @@ app.post('/api/quote', async (req, res) => {
     try {
       await transporter.sendMail({
         from: process.env.EMAIL_USER,
-        to: 'vamsir673@gmail.com',
+        to: 'builtriseengineers@gmail.com',
         subject: `New Quotation Request: ${package_name}`,
         html: `
           <h2>New Quotation Request</h2>
@@ -126,7 +126,7 @@ app.post('/api/video', upload.single('video'), async (req, res) => {
     try {
       await transporter.sendMail({
         from: process.env.EMAIL_USER,
-        to: 'vamsir673@gmail.com',
+        to: 'builtriseengineers@gmail.com',
         subject: `New Video Upload: ${name}`,
         html: `
           <h2>New Video Uploaded</h2>
